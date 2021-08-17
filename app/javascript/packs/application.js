@@ -15,3 +15,15 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+import "aos";
+import "bootstrap";
+import "bootstrap-icons";
+import "boxicons";
+import "glightbox";
+import "isotope-layout";
+import "swiper";
+import "waypoints";
+
+import "../vendor/aos/aos"
+require("../vendor/aos/aos.js")
+import "../vendor/aos/aos.css"
