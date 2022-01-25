@@ -5,6 +5,12 @@
       <h1 class="font-pt-serif text-5xl font-bold mb-7">
         Coming Soon
       </h1>
+      <p class="font-pt-serif font-normal mb-7"> But not
+      <% time = Time.now %>
+
+      <%= time.strftime("today which is %A the %d of %B, %Y") %>
+
+      </p>
       <div class="font-montserrat">
        <button>
           <%= link_to "Go back", root_path, class: "bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2" %>
