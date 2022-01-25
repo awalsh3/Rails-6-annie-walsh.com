@@ -1,7 +1,7 @@
   <!-- Navigation -->
   <nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
     <div class="flex items-center">
-      <%= image_tag 'Logo_black'%>
+      <%= image_tag 'Logo_black', alt: "Logo", class: "h-4"%>
     </div>
     <ul class="font-montserrat items-center hidden md:flex">
       <li class="mx-3 ">
@@ -23,12 +23,12 @@
       </button>
     </div>
     <div id="showMenu" class="md:hidden">
-      <%= image_tag 'Menu' %>
+      <%= image_tag 'Menu', alt: "menu icon" %>
     </div>
   </nav>
   <div id='mobileNav' class="hidden px-4 py-6 fixed top-0 left-0 h-full w-full bg-secondary z-20 animate-fade-in-down">
     <div id="hideMenu" class="flex justify-end">
-      <%= image_tag 'Cross'%>
+      <%= image_tag 'Cross', alt: "Cross", class: "h-16 w-16"%>
     </div>
     <ul class="font-montserrat flex flex-col mx-8 my-24 items-center text-3xl">
       <li class="my-6">
@@ -49,13 +49,13 @@
     <div class="md:flex-1 md:mr-10">
       <h1 class="font-pt-serif text-5xl font-bold mb-7">
         Annie Walsh <br>
+        web developer
         <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-100%">
-          Web Developer
+          <%= image_tag "Underline1", alt: "underline", class: "bg-left-bottom bg-no-repeat pb-2 bg-100%" %>
         </span>
       </h1>
       <p class="font-pt-serif font-normal mb-7">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum harum
-        tempore consectetur voluptas, cumque nobis laboriosam voluptatem.
+        Full-stack graduate of Le Wagon London, a 24-week part-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, GitHub, Heroku and Ruby on Rails.
       </p>
       <div class="font-montserrat">
         <button class="bg-black px-6 py-4 rounded-lg border-2 border-black border-solid text-white mr-2 mb-2">
@@ -68,11 +68,11 @@
     </div>
     <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
       <div class="relative">
-        <img src='images/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
+        <%= image_tag 'Highlight1', alt: "highlight", class: "absolute -top-16 -left-10" %>
       </div>
-      <%= image_tag 'MacBook Pro'%>
+      <%= image_tag 'MacBook Pro', alt: "Macbook Pro"%>
       <div class="relative">
-        <img src='images/assets/Highlight2.svg' alt="" class="absolute -bottom-10 -right-6" />
+        <%= image_tag 'Highlight2', alt: "highlight 2", class:"absolute -bottom-10 -right-6" %>
       </div>
     </div>
   </section>
@@ -121,7 +121,7 @@
     <div class="md:grid md:grid-cols-2 md:grid-rows-2">
 
       <div class="flex items-start font-montserrat my-6 mr-10">
-        <img src='images/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <%= image_tag 'Heart', alt: 'heart', class: "h-7 mr-4" %>
         <div>
           <h3 class="font-semibold text-2xl">Feature #1</h3>
           <p>
