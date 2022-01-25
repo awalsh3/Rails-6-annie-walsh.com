@@ -1,28 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tailwind CSS Starter</title>
-  <link rel="stylesheet" href="dist/styles.css" />
-  <script src="dist/script.js"></script>
-</head>
-
-<body>
   <!-- Navigation -->
   <nav class="fixed flex justify-between py-6 w-full lg:px-48 md:px-12 px-4 content-center bg-secondary z-10">
     <div class="flex items-center">
-      <img src='dist/assets/Logo_black.svg' alt="Logo" class="h-4" />
+      <img src='Logo_black.svg' alt="Logo" class="h-4" />
     </div>
     <ul class="font-montserrat items-center hidden md:flex">
       <li class="mx-3 ">
         <a class="growing-underline" href="howitworks">
-          How it works
+          About
         </a>
       </li>
       <li class="growing-underline mx-3">
-        <a href="features">Features</a>
+        <a href="features">Garden</a>
       </li>
       <li class="growing-underline mx-3">
         <a href="pricing">Pricing</a>
@@ -35,19 +23,19 @@
       </button>
     </div>
     <div id="showMenu" class="md:hidden">
-      <img src='dist/assets/logos/Menu.svg' alt="Menu icon" />
+      <img src='images/assets/logos/Menu.svg' alt="Menu icon" />
     </div>
   </nav>
   <div id='mobileNav' class="hidden px-4 py-6 fixed top-0 left-0 h-full w-full bg-secondary z-20 animate-fade-in-down">
     <div id="hideMenu" class="flex justify-end">
-      <img src='dist/assets/logos/Cross.svg' alt="" class="h-16 w-16" />
+      <img src='images/assets/logos/Cross.svg' alt="" class="h-16 w-16" />
     </div>
     <ul class="font-montserrat flex flex-col mx-8 my-24 items-center text-3xl">
       <li class="my-6">
-        <a href="howitworks">How it works</a>
+        <a href="howitworks">About</a>
       </li>
       <li class="my-6">
-        <a href="features">Features</a>
+        <a href="features">Garden</a>
       </li>
       <li class="my-6">
         <a href="pricing">Pricing</a>
@@ -60,9 +48,9 @@
     class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between md:items-center lg:px-48 md:px-12 px-4 bg-secondary">
     <div class="md:flex-1 md:mr-10">
       <h1 class="font-pt-serif text-5xl font-bold mb-7">
-        A headline for your
+        Annie Walsh <br>
         <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-100%">
-          cool website
+          Web Developer
         </span>
       </h1>
       <p class="font-pt-serif font-normal mb-7">
@@ -80,11 +68,11 @@
     </div>
     <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
       <div class="relative">
-        <img src='dist/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
+        <img src='images/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
       </div>
-      <img src='dist/assets/MacBook Pro.png' alt="Macbook" />
+      <img src='images/assets/MacBook Pro.png' alt="Macbook" />
       <div class="relative">
-        <img src='dist/assets/Highlight2.svg' alt="" class="absolute -bottom-10 -right-6" />
+        <img src='images/assets/Highlight2.svg' alt="" class="absolute -bottom-10 -right-6" />
       </div>
     </div>
   </section>
@@ -133,7 +121,7 @@
     <div class="md:grid md:grid-cols-2 md:grid-rows-2">
 
       <div class="flex items-start font-montserrat my-6 mr-10">
-        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <img src='images/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
         <div>
           <h3 class="font-semibold text-2xl">Feature #1</h3>
           <p>
@@ -146,7 +134,7 @@
       </div>
 
       <div class="flex items-start font-montserrat my-6 mr-10">
-        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <img src='images/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
         <div>
           <h3 class="font-semibold text-2xl">Feature #2</h3>
           <p>
@@ -159,7 +147,7 @@
       </div>
 
       <div class="flex items-start font-montserrat my-6 mr-10">
-        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <img src='images/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
         <div>
           <h3 class="font-semibold text-2xl">Feature #3</h3>
           <p>
@@ -172,7 +160,7 @@
       </div>
 
       <div class="flex items-start font-montserrat my-6 mr-10">
-        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <img src='images/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
         <div>
           <h3 class="font-semibold text-2xl">Feature #4</h3>
           <p>
@@ -204,15 +192,15 @@
         </div>
 
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #1</p>
         </div>
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #2</p>
         </div>
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #3</p>
         </div>
 
@@ -231,15 +219,15 @@
         </div>
 
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #1</p>
         </div>
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #2</p>
         </div>
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #3</p>
         </div>
 
@@ -258,15 +246,15 @@
         </div>
 
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #1</p>
         </div>
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #2</p>
         </div>
         <div class="flex">
-          <img src='dist/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
+          <img src='images/assets/logos/CheckedBox.svg' alt="" class="mr-1" />
           <p>Benefit #3</p>
         </div>
 
@@ -291,7 +279,7 @@
         <div question class="font-montserrat font-medium mr-auto">
           Where can I get this HTML template?
         </div>
-        <img src='dist/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
+        <img src='images/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
       </div>
       <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
         You can download it on Gumroad.com
@@ -304,7 +292,7 @@
         <div question class="font-montserrat font-medium mr-auto">
           Is this HTML template free?
         </div>
-        <img src='dist/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
+        <img src='images/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
       </div>
       <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
         Yes! For you it is free.
@@ -317,7 +305,7 @@
         <div question class="font-montserrat font-medium mr-auto">
           Am I awesome?
         </div>
-        <img src='dist/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
+        <img src='images/assets/logos/CaretRight.svg' alt="" class="transform transition-transform" />
       </div>
       <div answer class="font-montserrat text-sm font-extralight pb-8 hidden">
         Yes! No doubt about it.
@@ -330,26 +318,23 @@
   <!-- Footer -->
   <section class="bg-black sectionSize">
     <div class="mb-4">
-      <img src='dist/assets/Logo_white.svg' alt="Logo" class="h-4" />
+      <img src='images/assets/Logo_white.svg' alt="Logo" class="h-4" />
     </div>
     <div class="flex mb-8">
       <a href="#">
-        <img src='dist/assets/logos/Facebook.svg' alt="Facebook logo" class="mx-4" />
+        <img src='images/assets/logos/Facebook.svg' alt="Facebook logo" class="mx-4" />
       </a>
       <a href="#">
-        <img src='dist/assets/logos/Youtube.svg' alt="Youtube logo" class="mx-4" />
+        <img src='images/assets/logos/Youtube.svg' alt="Youtube logo" class="mx-4" />
       </a>
       <a href="#">
-        <img src='dist/assets/logos/Instagram.svg' alt="Instagram logo" class="mx-4" />
+        <img src='images/assets/logos/Instagram.svg' alt="Instagram logo" class="mx-4" />
       </a>
       <a href="#">
-        <img src='dist/assets/logos/Twitter.svg' alt="Twitter logo" class="mx-4" />
+        <img src='images/assets/logos/Twitter.svg' alt="Twitter logo" class="mx-4" />
       </a>
     </div>
     <div class="text-white font-montserrat text-sm">
       © 2021 STARTUP. All rights reserved
     </div>
   </section>
-</body>
-
-</html>
